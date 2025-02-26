@@ -28,7 +28,7 @@ namespace DataProductCrawlTool
 
             string category = "sneakers";
             //Số trang lấy data
-            int totalPages = 1;
+            int totalPages = 40;
             //Số sp mỗi trang
             int limit = 100;   //Max là 100
 
