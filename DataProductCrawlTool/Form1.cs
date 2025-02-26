@@ -35,7 +35,7 @@ namespace DataProductCrawlTool
             try
             {
                 //Lấy data ở 40 trang đầu, mỗi trang 100 sản phẩm = 4000 sản phẩm
-                for (int i = 0; i < totalPages; i++)
+                for (int i = 1; i <= totalPages; i++)
                 {
                     //URL API
                     string url = $"https://api.sneakersapi.dev/api/v3/stockx/products?category={category}&limit={limit}&page={i}";
